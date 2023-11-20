@@ -1,0 +1,86 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/calendarSubscription/index",
+			"style": {
+				"navigationBarTitleText": "23软件工程2班课表日历导入工具"
+			}
+		}, {
+			"path": "pages/mine/mine",
+			"style": {
+				"navigationBarTitleText": "个人中心",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/calendarPreview/index",
+			"style": {
+				"navigationBarTitleText": "课表预览",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/classStuInfo/index",
+			"style": {
+				"navigationBarTitleText": "学生信息",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/updateLog/index",
+			"style": {
+				"navigationBarTitleText": "更新日志",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/labExam/index",
+			"style": {
+				"navigationBarTitleText": "实验室安全准入教育题库",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/generalQuestionQuery/index",
+			"style": {
+				"navigationBarTitleText": "万能题库",
+				"enablePullDownRefresh": false
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "23软件工程2班工具箱",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {},
+	"tabBar": {
+		"color": "#909399", // tab 上的文字默认颜色
+		"selectedColor": "#000000", //  tab 上的文字选中时的颜色
+		"backgroundColor": "#FFFFFF", // tab 的背景色
+		"borderStyle": "black", // tabbar 上边框的颜色，可选值 black/white
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/icon/home_FILL0_wght400_GRAD0_opsz24.png",
+				"selectedIconPath": "static/icon/home_FILL1_wght400_GRAD0_opsz24.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/mine/mine",
+				"iconPath": "static/icon/person_FILL0_wght400_GRAD0_opsz24.png",
+				"selectedIconPath": "static/icon/person_FILL1_wght400_GRAD0_opsz24.png",
+				"text": "我的"
+			}
+		]
+	}
+}

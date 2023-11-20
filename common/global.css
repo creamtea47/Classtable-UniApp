@@ -1,0 +1,54 @@
+.flex {
+	display: flex;
+}
+
+.flex-row {
+	flex-direction: row;
+}
+
+.flex-column {
+	flex-direction: column;
+}
+
+.flex-jc-center {
+	justify-content: center;
+}
+
+.flex-ai-center {
+	align-items: center;
+}
+
+
+.mt-30 {
+	margin-top: 30px;
+}
+
+.mb-30 {
+	margin-bottom: 30px;
+}
+
+.mb-15 {
+	margin-bottom: 15px;
+}
+
+.mt-10 {
+	margin-top: 10px;
+}
+
+.card {
+	border-radius: 15px;
+	background-color: white;
+	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+	margin: 10px;
+	padding: 10px
+}
+
+.card-title {
+	font-weight: bold;
+	font-size: small;
+}
+
+.card-content {
+	margin-top: 10px;
+	font-size: small;
+}
